@@ -34,7 +34,7 @@ if __name__ == "__main__":
     
     pattern_path = __file__.replace('api_qg.py', '../pattern/pattern.txt')
     
-    annotator = VnCoreNLP(address="http://127.0.0.1", port=9009)
+    annotator = VnCoreNLP(address="http://127.0.0.1", port=9000)
 
     with open(pattern_path, "r") as f:
         patterns = f.read().split('\n')
