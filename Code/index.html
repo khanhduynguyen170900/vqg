@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vietnamese Question Generation</title>
+
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700,300italic);
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 100%;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            background: #d0e6ef;
+            color: #666;
+        }
+
+        .wrapper {
+            max-width: 75%;
+            margin: auto;
+        }
+
+
+        h1 {
+            color: #555;
+            margin: 3rem 0 1rem 0;
+            padding: 0;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 400px;
+            resize: none;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            padding: 0.5rem;
+            color: #666;
+            box-shadow: inset 0 0 0.25rem #ddd;
+            overflow-y: scroll;
+            font-family: 'Open Sans', sans-serif;
+            font-size: medium;
+        }
+
+        .qa {
+            margin-top: 1rem;
+            margin-bottom: 5rem;
+        }
+
+        /* Style the button that is used to open and close the collapsible content */
+        .collapsible {
+            background-color: #eee;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+        }
+
+        /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+        .active,
+        .collapsible:hover {
+            background-color: #ccc;
+        }
+
+        /* Style the collapsible content. Note: hidden by default */
+        .content {
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+        }
+
+        .collapsible:after {
+            content: '\02795';
+            /* Unicode character for "plus" sign (+) */
+            font-size: 13px;
+            color: white;
+            float: right;
+            margin-left: 5px;
+        }
+
+        .active:after {
+            content: "\2796";
+            /* Unicode character for "minus" sign (-) */
+        }
+
+        .button {
+            border-radius: 1rem !important;
+            margin: 1rem 0;
+            width: 100%;
+            position: relative;
+            padding: 10px 16px;
+            background: #555;
+            border: none;
+            outline: none;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+
+        .button:active {
+            background: rgb(106, 107, 107)
+        }
+
+        .button__text {
+            color: #ffffff;
+            transition: all 0.2s;
+        }
+
+        p.qa {
+            margin: 1rem;
+        }
+
+        .button--loading::after {
+            content: "";
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            border: 4px solid transparent;
+            border-top-color: #383434;
+            border-radius: 50%;
+            animation: button-loading-spinner 1s ease infinite;
+        }
+
+        @keyframes button-loading-spinner {
+            from {
+                transform: rotate(0turn);
+            }
+
+            to {
+                transform: rotate(1turn);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Demo Phát Sinh Câu Hỏi Tự Động</h1>
+        <textarea name="the-textarea" id="the-textarea" placeholder="Điền vào văn bản tiếng Việt" autofocus></textarea>
+
+        <button type="button" class="button" id="button"><span class="button__text">Phát sinh câu hỏi từ văn bản</span></button>
+
+
+        <div class="qa" id="show-result">
+            <!-- <h3>Danh sách câu có ngữ pháp ứng với các pattern</h3>
+
+            <button type="button" class="collapsible">Hôm nay An đi Hà Nội.</button>
+            <div class="content">
+                <p class="qa">Lorem ipsum...</p>
+                <hr>
+                <p class="qa">Lorem ipsum...</p>
+                <hr>
+                <p class="qa">Lorem ipsum...</p>
+            </div> -->
+
+        </div>
+    </div>
+    <script src="./run.js"></script>
+    <script>
+
+
+    </script>
+</body>
+
+</html>
