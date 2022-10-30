@@ -32,7 +32,7 @@ def postME():
 #Run the app:
 if __name__ == "__main__": 
     
-    pattern_path = '/Users/khanhnguyen/Document/QG/pattern/pattern.txt'
+    pattern_path = __file__.replace('api_qg.py', '../pattern/pattern.txt')
     
     annotator = VnCoreNLP(address="http://127.0.0.1", port=9009)
 
