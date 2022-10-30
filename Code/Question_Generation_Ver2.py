@@ -1,8 +1,8 @@
 import py_vncorenlp
 from utils import *
 import json
-vncorenlp_path = '/Users/khanhnguyen/Document/QG/Code/vncorenlp'
-pattern_path = '/Users/khanhnguyen/Document/QG/pattern/pattern.txt'
+vncorenlp_path = __file__.replace('Question_Generation_Ver2.py', 'vncorenlp')
+pattern_path = __file__.replace('Question_Generation_Ver2.py', '../pattern/pattern.txt')
 # input_path = '../../io/input.txt'
 
 # model = py_vncorenlp.VnCoreNLP(save_dir=vncorenlp_path)
@@ -28,5 +28,5 @@ tmp = {}
 for i, at in enumerate(annotated_text):
     tmp[i] = at
 annotated_text = tmp
-print(annotated_text)
+
 print(question_generation(annotated_text, patterns))
