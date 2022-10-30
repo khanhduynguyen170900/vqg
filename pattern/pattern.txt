@@ -1,0 +1,56 @@
+_ <sub,Np,B-PER,> _ <root,,,là> _ <dob,,,> _|sub là ai ?,dob
+_ <sub,Np,B-PER,> _ <root,,,là> _ <dob,,,> _|Ai là dob ?,sub
+_ <sub,,B-ORG,> _ <root,,,là> _ <dob,,,> _|Tổ chức nào là dob ?,sub
+_ <sub,,B-LOC,> _ <root,,,là> _ <dob,,,> _|Đâu là dob ?,sub
+_ <sub,N,O,> _ <root,,,> _ <dob,,,> _|sub root cái gì ?,dob
+_ <loc,E,O,ở> _ <sub,,,> _ <root,,,> _ <dob,,,> _|sub root dob ở đâu ?,loc
+_ <loc,E,O,tại> _ <sub,,,> _ <root,,,> _ <dob,,,> _|sub root dob tại đâu ?,loc
+_ <loc,E,O,trong> _ <sub,,,> _ <root,,,> _ <dob,,,> _|sub root dob trong đâu ?,loc
+_ <sub,N,O,> _ <root,,,> _ <vmod,,,> _|sub root gì ?,vmod
+_ <sub,Np,B-PER,> _ <root,,,> _ <vmod,,,> _|Ai root vmod ?,sub
+_ <sub,,,> _ <root,,,> _ <dob,,,> _ <vmod,,,là> _|sub root dob là gì ?,vmod
+_ <sub,,,> _ <root,,,> _ <dob,,,> _ <vmod,,,> _|sub root dob làm gì ?,vmod
+_ <sub,Np,B-PER,> _ <root,,,là> _ <dob,,,> _ <vmod,,,> _|sub người vmod là ai ?,dob
+_ <sub,Np,B-PER,> _ <root,,,là> _ <dob,,,> _ <coord,,,> _|Ai là dob coord ?,sub
+_ <sub,,,> _ <root,,,là> _ <dob,,,> _ <coord,,,> _|sub là dob và là gì ?,coord
+_ <sub,,B-ORG,> _ <root,,,là> _ <dob,,,> _ <coord,,,> _|Tổ chức nào là dob coord ?,sub
+_ <sub,,B-LOC,> _ <root,,,là> _ <dob,,,> _ <coord,,,> _|Đâu là dob coord ?,sub
+_ <sub,Np,B-PER,> _ <root,,,> _ <vmod,,,> _ <coord,,,> _|Ai root vmod coord ?,sub
+_ <sub,,B-ORG,> _ <root,,,> _ <vmod,,,> _ <coord,,,> _|Tổ chức nào root vmod coord ?,sub
+_ <sub,,B-LOC,> _ <root,,,> _ <vmod,,,> _ <coord,,,> _|Đâu root vmod coord ?,sub
+_ <tmp,N,,năm> _ <sub,,,> _ <root,,,> _ <vmod,,,> _|sub root vmod vào năm nào ?,tmp
+_ <tmp,N,,thế kỷ> _ <sub,,,> _ <root,,,> _ <vmod,,,> _|sub root vmod vào thế kỷ thứ mấy ?,tmp
+_ <tmp,N,,ngày> _ <sub,,,> _ <root,,,> _ <vmod,,,> _|sub root vmod vào ngày nào ?,tmp
+_ <tmp,N,,tháng> _ <sub,,,> _ <root,,,> _ <vmod,,,> _|sub root vmod vào tháng nào ?,tmp
+_ <tmp,N,,> _ <sub,,,> _ <root,,,> _ <vmod,,,> _|Khi nào sub root vmod ?,tmp
+_ <sub,Np,B-PER,> _ <adv,,,> _ <root,,,> _ <vmod,,,> _|Ai adv root vmod ?,sub
+_ <sub,,B-ORG,> _ <adv,,,> _ <root,,,> _ <vmod,,,> _|Tổ chức nào adv root vmod ?,sub
+_ <sub,,B-LOC,> _ <adv,,,> _ <root,,,> _ <vmod,,,> _|Đâu adv root vmod ?,sub
+_ <sub,Np,B-PER,> _ <adv,,,> _ <root,,,> _ <dob,,,> _|Ai adv root dob ?,sub
+_ <sub,,B-ORG,> _ <adv,,,> _ <root,,,> _ <dob,,,> _|Tổ chức nào adv root dob ?,sub
+_ <sub,,B-LOC,> _ <adv,,,> _ <root,,,> _ <dob,,,> _|Đâu adv root dob ?,sub
+_ <sub,Np,B-PER,> _ <adv,,,> _ <root,,,là> _ <dob,,,> _|sub adv là ai ?,dob
+_ <sub,,,> _ <adv,,,> _ <root,,,> _ <dob,,,> _|sub adv root gì ?,dob
+_ <tmp,N,,năm> _ <sub,,,> _ <root,,,> _ <dob,,,> _|sub root dob vào năm nào ?,tmp
+_ <tmp,N,,thế kỷ> _ <sub,,,> _ <root,,,> _ <dob,,,> _|sub root dob vào thế kỷ thứ mấy ?,tmp
+_ <tmp,N,,ngày> _ <sub,,,> _ <root,,,> _ <dob,,,> _|sub root dob vào ngày nào ?,tmp
+_ <tmp,N,,tháng> _ <sub,,,> _ <root,,,> _ <dob,,,> _|sub root dob vào tháng nào ?,tmp
+_ <tmp,N,,> _ <sub,,,> _ <root,,,> _ <dob,,,> _|Khi nào sub root dob ?,tmp
+_ <tmp,N,,năm> _ <sub,,,> _ <adv,,,> _ <root,,,> _ <dob,,,> _|sub adv root dob vào năm nào ?,tmp
+_ <tmp,N,,thế kỷ> _ <sub,,,> _ <adv,,,> _ <root,,,> _ <dob,,,> _|sub adv root dob vào thế kỷ thứ mấy ?,tmp
+_ <tmp,N,,ngày> _ <sub,,,> _ <adv,,,> _ <root,,,> _ <dob,,,> _|sub adv root dob vào ngày nào ?,tmp
+_ <tmp,N,,tháng> _ <sub,,,> _ <adv,,,> _ <root,,,> _ <dob,,,> _|sub adv root dob vào tháng nào ?,tmp
+_ <tmp,N,,> _ <sub,,,> _ <adv,,,> _ <root,,,> _ <dob,,,> _|Khi nào sub adv root dob ?,tmp
+_ <sub,,,> _ <root,,,> _ <loc,E,O,ở> _|sub root ở đâu ?,loc
+_ <sub,,,> _ <root,,,> _ <loc,E,O,từ> _|sub root từ đâu ?,loc
+_ <sub,,,> _ <root,,,> _ <loc,E,O,tại> _|sub root tại đâu ?,loc
+_ <sub,,,> _ <root,,,> _ <loc,E,O,vào> _|sub root vào đâu ?,loc
+_ <sub,,,> _ <root,,,> _ <loc,E,O,trong> _|sub root trong đâu ?,loc
+_ <sub,,,> _ <root,,,> _ <loc,E,O,tới> _|sub root tới đâu ?,loc
+_ <sub,,,> _ <root,,,> _ <loc,E,O,trên> _|sub root trên đâu ?,loc
+_ <sub,,,> _ <root,,,> _ <loc,E,O,đến> _|sub root đến đâu ?,loc
+_ <sub,,,> _ <root,,,> _ <loc,E,O,về> _|sub root về đâu ?,loc
+_ <sub,,,> _ <root,,,> _ <loc,E,O,dưới> _|sub root dưới đâu ?,loc
+_ <sub,,,> _ <root,,,> _ <loc,E,,> _|sub root ở đâu ?,loc
+_ <sub,,,> _ <root,,,> _ <loc,N,,> _|sub root ở đâu ?,loc
+_ <sub,,,> _ <root,,,> _ <tmp,,,> _|sub root khi nào ?,tmp
