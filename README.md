@@ -16,7 +16,7 @@ In this proposal, I has been using VnCoreNLP, which is a fast and accurate NLP a
 ## Installation <a name="installation"></a>
 - `Python 3.6+` if using [a Python wrapper of VnCoreNLP](https://github.com/thelinhbkhn2014/VnCoreNLP_Wrapper). To install this wrapper, users have to run the following command:
 
-    `$ pip install py_vncorenlp` 
+    `$ pip install vncorenlp` 
     
 - `Java 1.8+` 
 - File  `VnCoreNLP-1.1.1.jar` (27MB) and folder `models` (115MB) are placed in the same working folder. In the `./Code` folder run file `init_vncorenlp.py` to download the VnCoreNLP model:
